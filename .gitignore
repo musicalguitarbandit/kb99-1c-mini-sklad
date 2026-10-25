@@ -1,0 +1,40 @@
+# Выгрузки конфигурации 1С
+/ConfigDump/
+/configdump/
+*.mdo
+*.mdm
+*.mdi
+
+# Служебные файлы 1С (база, конфигурация, обновления, обработки)
+*.dt
+*.cf
+*.cfu
+*.epf
+*.erf
+
+# Временные, кэш, логи, автосохранения
+*.log
+*.pfl
+*.bak
+*~
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# IDE и локальные настройки
+.idea/
+.vscode/
+.vs/
+
+# Папки сборки/временные
+/build/
+/dist/
+/tmp/
+/temp/
+/data_dumps/
+
+# Локальные конфиги
+local.config
+*.env
+appsettings.local.*
